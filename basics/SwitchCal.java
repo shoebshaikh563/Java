@@ -28,6 +28,7 @@ public class SwitchCal {
                 System.out.println("Wrong Selection");
 
         }
+        sw.close();
 
     }
 }

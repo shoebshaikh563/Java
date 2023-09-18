@@ -20,6 +20,7 @@ import java.util.Scanner;
 public class Breakcontinue {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
         do {
             System.out.println("Enter Number: ");

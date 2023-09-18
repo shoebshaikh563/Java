@@ -15,5 +15,6 @@ public class Income {
             tex = income/100*30;
         }
       System.out.println("Your Tex Amount is: "+ tex);
+      sc.close();
     }
 }

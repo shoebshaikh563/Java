@@ -38,7 +38,7 @@ public class ps {
             System.out.print(number[i] + " ");
         }
         System.out.println();
-        if(n>=1&&n<number.length){
+        if(n<=number.length){
             int kth = number[n-1];
             System.out.println("the "+n+" elemnt is "+kth);
         }

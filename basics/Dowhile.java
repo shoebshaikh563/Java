@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Dowhile {
     public static void main(String[] args) {
         System.out.println("Enter a no: ");
-            Scanner sc = new Scanner(System.in);
-            int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         do {
             boolean isPrime = true;
             for (int i = 2; i <= n - 1; i++) {
@@ -18,7 +18,7 @@ public class Dowhile {
                 System.out.println("not prime");
             }
 
-        } while (n<=0);
-
+        } while (n <= 0);
+        sc.close();
     }
 }

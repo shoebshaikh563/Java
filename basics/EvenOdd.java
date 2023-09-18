@@ -11,5 +11,7 @@ public class EvenOdd {
         else{
             System.out.println("odd");
         }
+        scanner.close();
+
     }
 }

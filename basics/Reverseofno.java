@@ -6,13 +6,21 @@ public class Reverseofno {
         System.out.println("Enter number");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        int temp=n;
         while (n > 0) {
             int lastDig = n % 10;
             n /= 10;
             rev = (rev * 10) + lastDig;
 
         }
-        System.out.print(rev);
+        System.out.println(rev);
+       if(temp==rev){
+        System.out.println("plindrome");
+       }
+       else{
+        System.out.println("not plindrom");
+       }
+        sc.close();
 
     }
 }

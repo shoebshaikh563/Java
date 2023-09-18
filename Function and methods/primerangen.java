@@ -25,6 +25,7 @@ public class primerangen {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         primeInRange(n);
+        sc.close();
 
     }
 }

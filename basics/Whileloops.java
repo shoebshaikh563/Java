@@ -12,6 +12,7 @@ public class Whileloops {
             i++;
         }
         System.out.println("Value is:" + sum);
+        sc.close();
     }
 
 }

@@ -15,6 +15,7 @@ public class Leap {
         else{
             System.out.println("not leap");
         }
+        sc.close();
 
     }
 }
