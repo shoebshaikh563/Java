@@ -9,6 +9,7 @@ public class practice {
             int k = mul * i;
             System.out.println(mul + "*" + i + "=" + k);
         }
+        sc.close();
     }
 }
 

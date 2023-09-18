@@ -1,5 +1,4 @@
 package Arrays;
-
 public class bst {
     public static int bstarray(int number[], int key) {
         int start = 0;
@@ -21,8 +20,8 @@ public class bst {
     }
 
     public static void main(String[] args) {
-        int number[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 10, 12, 24, 34, 56, 74, 24 };
-        int key = 24 ;
+        int number[] = {1,2,3,4,5,6,7,8,9,10};
+        int key = 9;
         System.out.println(bstarray(number, key));
     }
 

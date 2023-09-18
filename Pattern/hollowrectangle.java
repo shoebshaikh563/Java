@@ -56,10 +56,10 @@ public class hollowrectangle {
     }
 
     public static void main(String[] args) {
-        hollow_rectangle(10, 10);
+        // hollow_rectangle(10, 10);
         halfpramid(5);
-        floid_trangle(5);
-        invertaedhalf(5);
+        // floid_trangle(5);
+        // invertaedhalf(5);
     }
 
     

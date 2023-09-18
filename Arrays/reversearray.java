@@ -1,25 +1,22 @@
+// 
 package Arrays;
 
 public class reversearray {
-    public static void reverse(int number[]) {
+    public static void main(String[] args) {
+        int num[] = { 1, 2, 3, 4 };
         int first = 0;
-        int last = number.length - 1;
+        int last = num.length - 1;
         while (first < last) {
-            int temp = number[last];
-            number[last] = number[first];
-            number[first] = temp;
+            int temp = num[last];
+            num[last] = num[first];
+            num[first] = temp;
             first++;
             last--;
+            
         }
+        for (int i = 0; i < num.length; i++) {
+                System.out.print(num[i]);
+            }
 
-    }
-
-    public static void main(String[] args) {
-        int number[] = {1,2,3,4,5,6,7,8,9,10};
-        reverse(number);
-        for (int i = 0; i < number.length; i++) {
-            System.out.print(number[i] + " ");
-        }
-        System.out.println();
     }
 }
