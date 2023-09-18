@@ -29,6 +29,7 @@ public class Binomial {
         binCoeff(n, r);
         int hj = factorial(r);
         System.out.println(hj);
+        sc.close();
 
     }
 }

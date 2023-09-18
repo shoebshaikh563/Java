@@ -33,5 +33,6 @@ public class Checknoprime {
         int n = sc.nextInt();
         isPrime(n);
         System.out.println(isPrime(n));
+        sc.close();
     }
 }

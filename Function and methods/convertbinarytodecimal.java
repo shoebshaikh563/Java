@@ -20,5 +20,6 @@ public class convertbinarytodecimal {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     binaryTodecimal(n);
+    sc.close();
     }
 }

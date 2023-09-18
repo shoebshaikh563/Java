@@ -19,6 +19,7 @@ public class Functionoverloading {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         add2(a, b);
+        scanner.close();
 
     }
 }

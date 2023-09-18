@@ -29,6 +29,5 @@ public class Breakcontinue {
             }
             System.out.println(n);
         } while (true);
-        
     }
 }

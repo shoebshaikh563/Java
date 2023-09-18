@@ -17,5 +17,6 @@ class java {
         else{
             System.out.println("not prime");
         }
+        sc.close();
     }
 }

@@ -17,7 +17,8 @@ public class Function {
 
 
         // int cal = calculateSum(a, b);
-        // System.out.println(cal);
+        System.out.println(sum);
+        sc.close();
 
  }
 }
