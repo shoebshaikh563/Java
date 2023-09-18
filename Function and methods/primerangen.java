@@ -2,13 +2,11 @@ import java.util.*;
 
 public class primerangen {
     public static boolean isprime(int n) {
-        boolean isprime = true;
         for (int i = 2; i <= n - 1; i++) {
             if (n % i == 0) {
-                isprime = false;
             }
         }
-        return isprime = true;
+        return true;
     }
 
     public static void primeInRange(int n) {
