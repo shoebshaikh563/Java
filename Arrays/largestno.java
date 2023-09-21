@@ -31,7 +31,7 @@ package Arrays;
 
 public class largestno {
     public static void main(String[] args) {
-        int number[] = { 1, 1, 2, 3, 56, 2 };
+        int number[] = { 1, 7, 2, 3, 56, 2 };
         int highest = Integer.MIN_VALUE;
         int lowest = Integer.MAX_VALUE;
         for (int i = 0; i < number.length; i++) {
